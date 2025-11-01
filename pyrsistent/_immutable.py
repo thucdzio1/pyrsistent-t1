@@ -95,3 +95,4 @@ class {class_name}(namedtuple('ImmutableBase', [{quoted_members}])):
         raise SyntaxError(str(e) + ':\n' + template) from e
 
     return namespace[name]
+

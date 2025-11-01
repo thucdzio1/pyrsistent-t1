@@ -545,3 +545,4 @@ class CheckedPMap(PMap[KT, VT_co], CheckedType, metaclass=_CheckedMapTypeMeta):
                 return self._destination_class(self._buckets_evolver.persistent(), self._size)
 
             return self._original_pmap
+

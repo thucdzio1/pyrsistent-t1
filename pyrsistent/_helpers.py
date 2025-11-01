@@ -99,3 +99,4 @@ def mutant(fn):
         return freeze(fn(*[freeze(e) for e in args], **dict(freeze(item) for item in kwargs.items())))
 
     return inner_f
+

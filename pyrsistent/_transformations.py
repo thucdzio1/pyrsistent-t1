@@ -141,3 +141,4 @@ def _update_structure(structure, kvs, path, command):
                 e[k] = result
 
     return e.persistent()
+

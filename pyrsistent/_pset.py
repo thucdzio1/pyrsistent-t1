@@ -228,3 +228,4 @@ def s(*elements):
     pset([1, 2, 3])
     """
     return pset(elements)
+

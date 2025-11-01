@@ -159,3 +159,4 @@ class _PRecordEvolver(PMap._Evolver):
         check_global_invariants(result, cls._precord_invariants)
 
         return result
+
